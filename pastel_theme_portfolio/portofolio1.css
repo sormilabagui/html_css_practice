@@ -5,7 +5,7 @@
 }
 body {
   font-family:cursive;
-  background: #fefefe;
+  background: #F9F1F0;
   width: 1440px;
   height: 1024px;
   display: flex;
@@ -31,11 +31,14 @@ body {
   height: 101px;
   width: 1392px;
 }
-
+.header h1{
+  margin-left: 30px;
+}
 .header nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #333;
+  margin-right: 30px;
 }
 
 .title {
@@ -45,7 +48,7 @@ body {
   padding: 20px;
   width: 565px;
   height: 479px;
-  border-radius: 20px;
+  border-radius: 10px;
   
 }
 
@@ -56,7 +59,8 @@ body {
     margin-left: 40px;
 }
 .title img{
-    margin-left: 80%;
+    margin-left: 77%;
+    margin-right: 10px;
 }
 .title p{
     font-size: 1.5em;
@@ -83,9 +87,9 @@ body {
   grid-row: 2 / span 8;
   width: 448px;
   height: 726px;
-  background: #fdecef;
+  background: #FADCD9;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .sidebar .image {
@@ -121,12 +125,12 @@ body {
 }
 .info {
   grid-column: 1 / 4;
-  grid-row: 7 / 13;
+  grid-row: 7 / 12;
   height: 351px;
   width: 448px;
   background: #fadcd9;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   justify-content:flex-end;
    align-self: flex-end;
 }
@@ -162,8 +166,8 @@ body {
 }
 .footer {
   grid-column: 7 / 12;
-  grid-row: 9 / 13;
-  background: #fdecef;
+  grid-row: 9 / 12;
+  background: #FADCD9;
   padding: 20px;
   width: 448px;
   height: 101px;
